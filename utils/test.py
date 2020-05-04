@@ -31,7 +31,7 @@ class TestCase:
             self.test_count += len(test_movies)
 
             if step_count % 500 == 0:
-                print('[INFO] %d steps, %.2f seconds have spent..' % (step_count, time.time() - start_time))
+                print('[INFO] %d steps, %.2f seconds have spent' % (step_count, time.time() - start_time))
             step_count += 1
 
         print('[SUCCESS] Test recommendation system success, spent %f seconds' % (time.time() - start_time))

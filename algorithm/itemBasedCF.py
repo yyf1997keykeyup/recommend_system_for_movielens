@@ -22,7 +22,6 @@ class ItemBasedCF:
         self.movie_sim_mat, self.movie_popular = get_item_simi(self.trainset,
                                                                self.use_iuf_similarity,
                                                                self.simi_func_name)
-        self.saveToFile()
 
     def loadFromFile(self):
         self.movie_sim_mat = ModelUtil().load(self.model_name)
