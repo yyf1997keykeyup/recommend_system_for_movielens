@@ -1,5 +1,8 @@
 # Recommendation System for MovieLens Dataset
 
+## Authors
+This project is created in cooperation by Chen Qian, Yufeng Yan, Yinuo Peng, Yu Xie for UVa CS 6316 Machine Learning course.
+
 ## Python Environment
 * python: 3.0 - 3.8
 
@@ -16,7 +19,7 @@ python main.py
 ```
 
 ## console logging output example:
-```shell script
+```
 [INFO] model_name: UserCF-IIF, dataset: ml-100k, test_ratio: 0.100000
 [SUCCESS] dataset has been loaded
 [SUCCESS] split data has been split to a test set and a train set
@@ -60,3 +63,7 @@ python main.py
 [SUCCESS] precision=0.18876	 recall=0.17731	 coverage=0.24955	 popularity=5.42733	
 [INFO] total 14.67 seconds have spent
 ```
+
+## What's More
+
+Some parts of the code are based algorithms on the book -- 'Recommended system practice' written by Liang Xiang.
