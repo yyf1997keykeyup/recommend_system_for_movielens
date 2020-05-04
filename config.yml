@@ -1,0 +1,22 @@
+# ml-100k / ml-1m
+dataset: ml-100k
+
+# UserCF / UserCF-IIF / ItemCF / ItemCF-IUF
+model_type: UserCF-IIF
+
+# range: 0 ~ 1
+test_ratio: 0.1
+
+# log / inverse_proportional / quadratic_inverse_proportional
+# / sqrt_inverse_proportional / exponent_inverse_proportional
+simi_func_name: inverse_proportional
+
+recommend_user_list:
+  - 1
+  - 2
+  - 3
+  - 100
+  - 500
+  - 900
+
+random_split_seed: 0
